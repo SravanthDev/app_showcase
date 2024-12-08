@@ -173,6 +173,32 @@
             align-items: center;
             height: 100vh;
         }
+ /* Container for the scene */
+        .container3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        /* Text Section */
+        .text-section {
+            max-width: 400px;
+            opacity: 0;
+            transform: translateX(-100%);
+            transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+        }
+
+        /* On hover, make the text visible and animate it */
+        .container3:hover .text-section {
+            opacity: 1;
+            transform: translateX(20px);
+        }
+
+        .text-section h1,
+        .text-section h2 {
+            margin: 0;
+        }
 
 </style>
 </head>
