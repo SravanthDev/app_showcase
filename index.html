@@ -267,6 +267,24 @@
             transform: translateY(20px);
             transition: opacity 1s ease-in-out, transform 1s ease-in-out;
         }
+ /* Hover effect for content */
+        .content-wrapper:hover .content-title, .content-wrapper:hover .content-text {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .content-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .content-text {
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: left;
+        }
 
 </style>
 </head>
