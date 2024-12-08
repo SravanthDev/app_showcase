@@ -214,6 +214,25 @@
             position: relative;
             transition: transform 1s ease-in-out;
         }
+  .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transform: translateX(0);
+            transition: transform 1s ease-in-out;
+        }
+
+        /* On hover, move the image slightly */
+        .container:hover .image-container img {
+            transform: translateX(40px);
+        }
+
+        .p-4 {
+            font-family: 'Press Start 2P', cursive;
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px;
+        }
 
 </style>
 </head>
