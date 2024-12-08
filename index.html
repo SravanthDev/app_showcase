@@ -59,6 +59,62 @@
     .nav-link:hover {
       color: #4caf50;
     }
+    /* Cover Page */
+    .background-video {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      filter: brightness(0.7);
+    }
+
+    .main-content {
+      position: relative;
+      z-index: 10;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .main-title {
+      font-size: 4rem;
+      color: #4caf50;
+      margin-bottom: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 2px solid #4caf50;
+      animation: typing 4s steps(30, end) infinite, blink 0.75s step-end infinite;
+    }
+
+    .subtitle {
+      font-size: 1.5rem;
+      color: #f0f0f0;
+      margin-top: 5px;
+    }
+
+    .btn-get-app {
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      color: #121212;
+      background: #4caf50;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn-get-app:hover {
+      background: #388e3c;
+      transform: scale(1.05);
+    }
+
 </style>
 </head>
 <body>
