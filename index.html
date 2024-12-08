@@ -138,6 +138,30 @@
       padding: 20px 0;
       text-align: center;
     }
+ .rolling-text {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #4caf50;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 100%;
+      position: relative;
+    }
+
+    .rolling-text span {
+      display: inline-block;
+      animation: rollText 8s linear infinite;
+      white-space: nowrap;
+    }
+
+    @keyframes rollText {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-200%);
+      }
+    }
 
 </style>
 </head>
