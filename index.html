@@ -403,6 +403,31 @@ footer {
     margin: 10px;
     max-width: 300px;
 }
+.game-info h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.game-info a {
+    color: #e94560;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.game-info a:hover {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo-section, .buy-tokens, .social-media, .game-info {
+        max-width: 100%;
+    }
+}
 
 </style>
 </head>
