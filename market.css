@@ -3,7 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('https://i.imgur.com/mxsjvkE.jpeg') no-repeat center center fixed; /* Replace this URL with your game market image */
+    background: url('https://i.imgur.com/mxsjvkE.jpeg') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
 }
@@ -12,19 +12,52 @@ header {
     text-align: center;
     padding: 3rem 2rem;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+    border-bottom: 2px solid #f39c12;
+    position: relative;
 }
 
 header h1 {
     font-family: 'Press Start 2P', sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
-    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    color: #f39c12; /* Orange color for the heading text */
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    color: #f39c12;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    }
+    to {
+        text-shadow: 0 4px 12px rgba(255, 165, 0, 0.8);
+    }
 }
 
 header p {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    color: #eee;
+}
+
+header .home-btn {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: #f39c12;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+header .home-btn:hover {
+    background: #d08711;
+    cursor: pointer;
 }
 
 .section {
@@ -41,7 +74,7 @@ header p {
 }
 
 .market-item {
-    background: rgba(255, 255, 255, 0.1); /* Semi-transparent for blending with the background */
+    background: rgba(255, 255, 255, 0.15);
     border: 2px solid #f39c12;
     border-radius: 20px;
     padding: 2rem;
@@ -54,7 +87,7 @@ header p {
 
 .market-item:hover {
     transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 10px 20px rgba(255, 165, 0, 0.7);
 }
 
 .market-item img {
@@ -72,7 +105,7 @@ header p {
 
 .market-item p {
     font-size: 1.1rem;
-    color: #bbb;
+    color: #ddd;
     margin-bottom: 0.5rem;
 }
 
@@ -87,8 +120,11 @@ footer {
     padding: 2rem 1rem;
     color: #fff;
     margin-top: 2rem;
+    background: rgba(0, 0, 0, 0.6);
+    border-top: 2px solid #f39c12;
 }
 
 footer p {
     font-size: 1rem;
+    color: #ccc;
 }
