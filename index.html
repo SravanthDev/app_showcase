@@ -83,7 +83,6 @@
     .nav-link:hover {
       color: #4caf50;
     }
-    /* Cover Page */
     .background-video {
       width: 100%;
       height: 100vh;
@@ -285,4 +284,168 @@
         .content-wrapper:hover .content-title, .content-wrapper:hover .content-text {
             opacity: 1;
             transform: translateY(0);
+            }
+
+        .content-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .content-text {
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: left;
+        }
+        @media (min-width: 768px) {
+            .content-wrapper {
+                flex-direction: row;
+                align-items: center;
+            }
+            .content-wrapper:nth-child(even) {
+                flex-direction: row-reverse;
+            }
+            .content-wrapper img {
+                width: 300px;
+                height: 300px;
+            }
+            .content-text {
+                text-align: left;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 50px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-decor {
+    background: radial-gradient(circle, rgba(233, 69, 96, 0.3), transparent 60%);
+    padding: 30px 0;
+    position: relative;
+}
+
+.footer-decor::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    width: 200%;
+    height: 200px;
+    background: linear-gradient(135deg, rgba(233, 69, 96, 0.5), rgba(0, 0, 0, 0));
+    transform: rotate(30deg);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.logo-section {
+    flex: 1;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.logo-section .logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.logo-section p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+
+.social-media {
+    flex: 1;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.social-media h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    margin-bottom: 5px;
+}
+
+.social-media a {
+    color: #e94560;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-media a:hover {
+    color: #fff;
+}
+
+.game-info {
+    flex: 1;
+    margin: 10px;
+    max-width: 300px;
+}
+.game-info h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.game-info a {
+    color: #e94560;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.game-info a:hover {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo-section, .buy-tokens, .social-media, .game-info {
+        max-width: 100%;
+    }
+}
+
+</style>
+</head>
+<body>
+    
+    
+    
+        <header class="header">
+            <div class="container4">
+                <div class="branding">
 
