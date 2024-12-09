@@ -7,6 +7,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="aboutus.css">
     <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
         .homebutton {
             position: absolute;
             top: 20px;
@@ -27,28 +35,53 @@
             transform: scale(1.05);
             box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
         }
+
+        .header {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .team-section {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            padding: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .team-member {
+            text-align: center;
+            width: 200px;
+        }
+
+        .team-member img {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        footer {
+            margin-top: auto;
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+        }
     </style>
 </head>
 <body>
-     <a href="index.html" class="homebutton">Return Home</a>
-    <div class="overlay"></div>
+    <a href="index.html" class="homebutton">Return Home</a>
     <div class="header">
         <h1>Meet Our Heroes</h1>
-       
     </div>
     <div class="team-section">
-        
         <div class="team-member">
             <img src="https://i.imgur.com/Wc7nkzu.jpeg" alt="Developer"> <!-- Replace with member's image URL -->
             <h3>Jon Snow</h3>
-            
         </div>
-       
         <div class="team-member">
             <img src="https://i.imgur.com/TGqHZR9.jpeg" alt="Developer"> <!-- Replace with member's image URL -->
             <h3>Jaime Lannister</h3>
         </div>
-    
         <div class="team-member">
             <img src="https://i.imgur.com/rTJ5onP.jpeg" alt="Developer"> <!-- Replace with member's image URL -->
             <h3>Eddard Stark</h3>
