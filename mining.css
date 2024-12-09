@@ -1,9 +1,8 @@
-/* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('https://i.imgur.com/fW4Zrnw.jpeg') no-repeat center center fixed; /* Replace with your dragon/fire image */
+    background: url('https://i.imgur.com/fW4Zrnw.jpeg') no-repeat center center fixed; 
     background-size: cover;
     color: #fff;
     overflow-x: hidden;
@@ -12,7 +11,7 @@ body {
 header {
     text-align: center;
     padding: 3rem 1rem;
-    background: rgba(0, 0, 0, 0.5); /* Matches header's overlay */
+    background: rgba(0, 0, 0, 0.5); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 header h1 {
@@ -41,7 +40,6 @@ header .cta-button:hover {
     transform: scale(1.1);
 }
 
-/* Mining Section */
 .mining-section {
     display: flex;
     flex-wrap: wrap;
@@ -50,7 +48,7 @@ header .cta-button:hover {
     padding: 3rem 1rem;
 }
 .mine {
-    background: rgba(41, 41, 67, 0.9); /* Semi-transparent for better visibility */
+    background: rgba(41, 41, 67, 0.9); 
     padding: 1.5rem;
     border-radius: 15px;
     width: 300px;
@@ -99,7 +97,6 @@ header .cta-button:hover {
     transform: scale(1.1);
 }
 
-/* Leaderboard Section */
 .leaderboard-section {
     background: rgba(41, 41, 67, 0.9);
     color: #fff;
@@ -147,7 +144,6 @@ header .cta-button:hover {
     transform: scale(1.1);
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 2rem 1rem;
