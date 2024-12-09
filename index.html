@@ -57,3 +57,129 @@
       text-align: center;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
+    header .logo h1 {
+      font-size: 1.8rem;
+      color: #4caf50;
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    .nav-links {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .nav-link {
+      color: #f0f0f0;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .nav-link:hover {
+      color: #4caf50;
+    }
+    /* Cover Page */
+    .background-video {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      filter: brightness(0.7);
+    }
+
+    .main-content {
+      position: relative;
+      z-index: 10;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .main-title {
+      font-size: 4rem;
+      color: #4caf50;
+      margin-bottom: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 2px solid #4caf50;
+      animation: typing 4s steps(30, end) infinite, blink 0.75s step-end infinite;
+    }
+
+    .subtitle {
+      font-size: 1.5rem;
+      color: #f0f0f0;
+      margin-top: 5px;
+    }
+
+    .btn-get-app {
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      color: #121212;
+      background: #4caf50;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn-get-app:hover {
+      background: #388e3c;
+      transform: scale(1.05);
+    }
+ @keyframes typing {
+      0% {
+        width: 0;
+      }
+      50% {
+        width: 100%;
+      }
+      100% {
+        width: 0;
+      }
+    }
+
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+
+    /* Rolling Text Section */
+    .rolling-section {
+      background-color: #1e1e1e; /* Rolling section background */
+      padding: 20px 0;
+      text-align: center;
+    }
+ .rolling-text {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #4caf50;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 100%;
+      position: relative;
+    }
+
+    .rolling-text span {
+      display: inline-block;
+      animation: rollText 8s linear infinite;
+      white-space: nowrap;
+    }
+
+    @keyframes rollText {
+      0% {
+        transform: translateX(100%);
