@@ -46,14 +46,14 @@ body {
 }
 
 .team-member {
-/*     background: rgba(0, 0, 0, 0.8); */
+    background: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
     width: 280px;
     text-align: center;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    border:1px solid;
+  border:1px solid;
 }
 
 .team-member img {
