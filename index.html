@@ -183,3 +183,68 @@
     @keyframes rollText {
       0% {
         transform: translateX(100%);
+           }
+      100% {
+        transform: translateX(-200%);
+      }
+    }
+.the animation body {
+            font-family: 'Press Start 2P', cursive;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+ /* Container for the scene */
+        .container3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        /* Text Section */
+        .text-section {
+            max-width: 400px;
+            opacity: 0;
+            transform: translateX(-100%);
+            transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+        }
+
+        /* On hover, make the text visible and animate it */
+        .container3:hover .text-section {
+            opacity: 1;
+            transform: translateX(20px);
+        }
+
+        .text-section h1,
+        .text-section h2 {
+            margin: 0;
+        }
+ .text-section p {
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: 400;
+            color: #ddd;
+        }
+
+        /* Image Section */
+        .image-container {
+            width: 50%;
+            max-width: 500px;
+            overflow: hidden;
+            position: relative;
+            transition: transform 1s ease-in-out;
+        }
+  .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transform: translateX(0);
+            transition: transform 1s ease-in-out;
+        }
+
