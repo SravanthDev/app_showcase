@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
 <style>
+    /* Global Styles */
     body {
       font-family: "Press Start 2P", cursive;
       margin: 0;
@@ -20,7 +21,8 @@
       color: #f0f0f0; 
       overflow-x: hidden;
     }
-    .branding {
+    /* Branding Container */
+.branding {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -49,12 +51,14 @@
 }
 
 
+    /* Header */
     header {
       background: #1e1e1e;
       padding: 15px 0;
       text-align: center;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
+
     header .logo h1 {
       font-size: 1.8rem;
       color: #4caf50;
@@ -83,6 +87,7 @@
     .nav-link:hover {
       color: #4caf50;
     }
+    /* Cover Page */
     .background-video {
       width: 100%;
       height: 100vh;
@@ -155,8 +160,9 @@
       }
     }
 
+    /* Rolling Text Section */
     .rolling-section {
-      background-color: #1e1e1e; 
+      background-color: #1e1e1e; /* Rolling section background */
       padding: 20px 0;
       text-align: center;
     }
@@ -179,7 +185,7 @@
     @keyframes rollText {
       0% {
         transform: translateX(100%);
-           }
+      }
       100% {
         transform: translateX(-200%);
       }
@@ -195,6 +201,7 @@
             align-items: center;
             height: 100vh;
         }
+ /* Container for the scene */
         .container3 {
             display: flex;
             justify-content: center;
@@ -202,6 +209,7 @@
             gap: 20px;
         }
 
+        /* Text Section */
         .text-section {
             max-width: 400px;
             opacity: 0;
@@ -209,6 +217,7 @@
             transition: transform 1s ease-in-out, opacity 1s ease-in-out;
         }
 
+        /* On hover, make the text visible and animate it */
         .container3:hover .text-section {
             opacity: 1;
             transform: translateX(20px);
@@ -225,6 +234,7 @@
             color: #ddd;
         }
 
+        /* Image Section */
         .image-container {
             width: 50%;
             max-width: 500px;
@@ -239,7 +249,9 @@
             transform: translateX(0);
             transition: transform 1s ease-in-out;
         }
-     .container:hover .image-container img {
+
+        /* On hover, move the image slightly */
+        .container:hover .image-container img {
             transform: translateX(40px);
         }
 
@@ -249,6 +261,7 @@
             color: #fff;
             padding: 20px;
         }
+  /* Section Title */
         .section-title {
             font-size: 2rem;
             font-weight: 700;
@@ -257,6 +270,7 @@
             animation: fadeIn 2s ease-in-out;
         }
 
+        /* Content Wrapper */
         .content-wrapper {
             background-color: #2b2b2b;
             padding: 2rem;
@@ -281,10 +295,11 @@
             transform: translateY(20px);
             transition: opacity 1s ease-in-out, transform 1s ease-in-out;
         }
+ /* Hover effect for content */
         .content-wrapper:hover .content-title, .content-wrapper:hover .content-text {
             opacity: 1;
             transform: translateY(0);
-            }
+        }
 
         .content-title {
             font-size: 1.5rem;
@@ -298,6 +313,7 @@
             line-height: 1.5;
             text-align: left;
         }
+ /* Layout adjustment for larger screens */
         @media (min-width: 768px) {
             .content-wrapper {
                 flex-direction: row;
@@ -315,6 +331,7 @@
             }
         }
 
+        /* Fade-in animation for section title */
         @keyframes fadeIn {
             from {
                 opacity: 0;
@@ -323,6 +340,7 @@
                 opacity: 1;
             }
         }
+/* Footer Styling */
 footer {
     background-color: #1a1a1a;
     color: white;
@@ -448,9 +466,6 @@ footer {
         <header class="header">
             <div class="container4">
                 <div class="branding">
-                    <header class="header">
-            <div class="container4">
-                <div class="branding">
                     <img src="https://media-hosting.imagekit.io//6255421b5257445b/screenshot_1733638303579.png?Expires=1733811104&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=wEhJdwkrAU-~hjCWv7I0P4wWuCUJ5Qun8xIuh3bf6~rR2OurIPoePkzkWXTS-asgMkIQP2ynEDiH0u8wVJMhP80JC6GrZnY9bVbeeGeVHsv2AmpIvVdAKzuVhEJWAsCE2BoApjVOP5wCU4y7qFiyQOb5G6~Oy8YQOoew-Eh40B3hASS2wKP20BYiLo4JRIZwWLZ2hkW~R1JuKCy0vgGHHjo-3pWkm0rXtCqgETNPrMgqYuW6tKBfFsf4rC-UAJT1WgEWzxbxYb-irqypC737R3MJyKcEzJERCsKXG6TNzsNOdjKJXvfynyZ0EiYaJ877KHdShJhQx93~pHIzLsOt2A__" 
                          alt="Metaverse Gaming Logo" />
                     <div class="text-content">
@@ -504,7 +519,7 @@ footer {
                 <div class="carousel-card">
                   <img src="https://media-hosting.imagekit.io//9b8c9f2cc82c4518/warrior.jpg?Expires=1733686696&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=hon0uxBl7utXyLIlSrbH3-LARzJeqZnlFZkswPYsCxu2wL3cDVDIzpb4aF7oo~4LN4ywclcDknrpR8pntlze2Ghgzza7FUGCnJu375NW3aj-pfQFnUwIcdijqyPZyCKbYpfeiy0iLW5Ecn7eHvOUnhXZBIj8UGNwXCT3pP81MT-S6ugEna61KeVoki40llKx90Eo9RKpRmuo77pUWZVCii0iyxl87Yd4veRFtEItkbGWqIXZKmfT~dGohkKx6~ZMcYQX5ewkCQfuMyuN2wnucEPSeyaicvzwTWaypt2pqe6zBVwMM9wFikmXDdEL1DFLflKbnmEVPs8M1lDfInOpsQ__" alt="Hero 1">
                   <h2>Warrior</h2>
-                    <p>Strong and fearless,, excels in close combat.</p>
+                  <p>Strong and fearless,, excels in close combat.</p>
                 </div>
                 <div class="carousel-card">
                   <img src="https://media-hosting.imagekit.io//ce0b9a603ad8485c/archer.png?Expires=1733686585&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=t~JJkVBDk~K8atJn6vMHNRJnoKiChIu8S7dD9iASUbeP9~eHwrrtAeiE5m38Q6-ilU13BhUR1OqTi1kN6QtUYGM-n2JEPm5LrDqGRIyOg0Gh735TlDPxPA7VyQjVTf7OxYeddFA3dxb0l~tm33vxolZCgOAgJEtSWFsBPdM8eTOIuKT~TO89HZczeg2SSfKjVI0K6CnZsOuvoI0BjI~TcUk8HPkOX9zkf51t~b1Qx2f5bcZ2xHicSg8wWO4BkjwMLeg18Saje~R9TcytB85SmmgI~7QIQL95MS3Hc~q0D6JlNcWT7c0e5OaqbjgXYi2Quw9YspCZ6bP3vk4rDbYdZA__" alt="Hero 2">
@@ -529,14 +544,18 @@ footer {
       </div>
     </div>
 
+    <!-- Footer -->
     <div class="decorative-footer"></div>
   </div>
   <div class="container3">
+    <!-- Image Section -->
     <div class="image-container">
         <img id="scene-image" alt="A medieval castle under attack with fire and explosions" 
             src="https://storage.googleapis.com/a1aa/image/UBMJ92ZTbfwCaCzJQ0yO8XL89b4OAMeVBPA0YDWeAl9YUhwnA.jpg"/>
     </div>
-      <div class="text-section">
+
+    <!-- Text Section -->
+    <div class="text-section">
         <h1>SCENE</h1>
         <h2>CONCEPT DESIGN</h2>
         <p id="scene-description">
@@ -622,5 +641,3 @@ footer {
 
 </body>
 </html>
-
-
