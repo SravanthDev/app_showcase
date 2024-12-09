@@ -97,7 +97,7 @@ header .cta-button:hover {
     background: #e67e22;
     transform: scale(1.1);
 }
-back-button {
+back-button1 {
             position: absolute;
             top: 20px;
             left: 20px;
@@ -111,10 +111,10 @@ back-button {
             align-items: center;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         }
-        .back-button:hover {
+        .back-button1:hover {
             background-color: #d63447;
         }
-        .back-button span {
+        .back-button1 span {
             margin-left: 8px;
         }
 
