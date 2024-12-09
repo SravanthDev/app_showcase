@@ -1,65 +1,64 @@
-/* General Header Styling */
+
 .header {
-    background-color: #000; /* Black background */
-    padding: 10px 20px; /* Adds space around the header content */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    background-color: #000; 
+    padding: 10px 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
 }
 
-/* Container Styling */
+
 .container4 {
     display: flex;
-    justify-content: space-between; /* Space between logo and navigation */
-    align-items: center; /* Aligns items vertically */
+    justify-content: space-between; 
+    align-items: center; 
 }
 
-/* Branding (Logo + Text) Styling */
+
 .branding {
     display: flex;
-    align-items: center; /* Aligns logo and text vertically */
-    gap: 10px; /* Adds space between logo and text */
+    align-items: center; 
+    gap: 10px;
 }
 
 .branding img {
-    height: 50px; /* Adjust logo height */
-    width: auto; /* Maintain aspect ratio */
+    height: 50px; 
+    width: auto; 
 }
 
 .text-content h1 {
     margin: 0;
     font-size: 1.5rem;
-    font-family: 'Press Start 2P', cursive; /* Pixel font */
-    color: #fff; /* White text for contrast */
+    font-family: 'Press Start 2P', cursive; 
+    color: #fff; 
 }
 
 .text-content .tagline {
     margin: 0;
     font-size: 0.9rem;
-    font-family: 'Press Start 2P', cursive; /* Pixel font */
-    color: #bbb; /* Lighter gray for tagline */
-    font-style: normal; /* No italics for pixel look */
-}
+    font-family: 'Press Start 2P', cursive; 
+    color: #bbb; 
+    font-style: normal; 
 
-/* Navigation Links Styling */
+
 .nav-links {
     display: flex;
-    gap: 20px; /* Space between links */
-    list-style: none; /* Removes bullet points */
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
+    gap: 20px;
+    list-style: none; 
+    margin: 0; 
+    padding: 0;
 }
 
 .nav-link {
-    text-decoration: none; /* Removes underline */
-    font-size: 0.9rem; /* Slightly smaller font size */
-    font-family: 'Press Start 2P', cursive; /* Pixel font */
-    color: #fff; /* White text for links */
-    transition: color 0.3s ease; /* Smooth hover effect */
+    text-decoration: none; 
+    font-size: 0.9rem; 
+    font-family: 'Press Start 2P', cursive; 
+    color: #fff; 
+    transition: color 0.3s ease; 
 }
 
 .nav-link:hover {
-    color: #1DB954; /* Green highlight on hover */
+    color: #1DB954; 
 }
-/* Global Styles */
+
 body {
     margin: 0;
     font-family: 'Cinzel', serif;
@@ -75,7 +74,7 @@ body {
     padding: 20px;
   }
   
-  /* Decorative Header */
+
   .decorative-header {
     display: flex;
     justify-content: center;
@@ -100,13 +99,13 @@ body {
     color: #f5c518;
   }
   
-  /* Carousel Wrapper */
+
   .carousel-wrapper {
     overflow: hidden;
     margin-bottom: 30px;
   }
   
-  /* Carousel */
+
   .carousel {
     display: flex;
     justify-content: space-between;
@@ -149,7 +148,7 @@ body {
     opacity: 0.8;
   }
   
-  /* Hover and Interactive Effects */
+
   .carousel-card:hover {
     transform: scale(1.05);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
@@ -161,11 +160,9 @@ body {
   }
   
   .carousel-wrapper {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
+   
   
-  /* Decorative Footer */
+
   .decorative-footer {
     margin: 30px 0;
     display: flex;
