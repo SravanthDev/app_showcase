@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+   font-family: "Press Start 2P";
     margin: 0;
     padding: 0;
     background: url('./dragonbackground.jpg') no-repeat center center fixed;
@@ -8,6 +8,7 @@ body {
 }
 
 header {
+    font-family: "Press Start 2P";
     text-align: center;
     padding: 3rem 2rem;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
@@ -17,7 +18,7 @@ header {
 }
 
 header h1 {
-    font-family: 'Press Start 2P', sans-serif;
+font-family: "Press Start 2P";
     font-size: 3rem;
     margin-bottom: 1rem;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
@@ -41,6 +42,7 @@ header p {
 }
 
 header .home-btn {
+    font-family: "Press Start 2P";
     position: absolute;
     top: 1rem;
     left: 1rem;
@@ -98,11 +100,13 @@ header .home-btn:hover {
 }
 
 .market-item h3 {
+    font-family: "Press Start 2P";
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
 }
 
 .market-item p {
+    font-family: "Press Start 2P";
     font-size: 1.1rem;
     color: #ddd;
     margin-bottom: 0.5rem;
