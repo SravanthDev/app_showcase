@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+   font-family: "Press Start 2P";
     margin: 0;
     padding: 0;
     background: url('https://i.imgur.com/fW4Zrnw.jpeg') no-repeat center center fixed; 
@@ -9,12 +9,14 @@ body {
 }
 
 header {
+    font-family: "Press Start 2P";
     text-align: center;
     padding: 3rem 1rem;
     background: rgba(0, 0, 0, 0.5); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 header h1 {
+    font-family: "Press Start 2P";
     font-family: 'Press Start 2P', cursive;
     font-size: 2.5rem;
     margin-bottom: 1rem;
@@ -22,6 +24,7 @@ header h1 {
     text-shadow: 2px 2px #000;
 }
 header p {
+    font-family: "Press Start 2P";
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
     color: #ddd;
@@ -66,6 +69,7 @@ header .cta-button:hover {
     border-radius: 10px;
 }
 .mine h3 {
+    font-family: "Press Start 2P";
     font-size: 1.2rem;
     margin: 0.5rem 0;
     font-weight: 700;
@@ -84,6 +88,7 @@ header .cta-button:hover {
 
 /* Mine Button */
 .mine-button {
+    font-family: "Press Start 2P";
     display: inline-block;
     background: #f39c12;
     color: #fff;
@@ -107,6 +112,7 @@ header .cta-button:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
 }
 .leaderboard-section h2 {
+    font-family: "Press Start 2P";
     text-align: center;
     font-size: 2rem;
     margin-bottom: 1.5rem;
@@ -120,6 +126,7 @@ header .cta-button:hover {
     gap: 1rem;
 }
 .leaderboard .player {
+    font-family: "Press Start 2P";
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -131,6 +138,7 @@ header .cta-button:hover {
     font-size: 1rem;
 }
 .achievements {
+    font-family: "Press Start 2P";
     text-align: center;
     margin-top: 2rem;
 }
@@ -145,12 +153,14 @@ header .cta-button:hover {
 }
 
 footer {
+    font-family: "Press Start 2P";
     text-align: center;
     padding: 2rem 1rem;
     color: #fff;
     margin-top: 2rem;
 }
 footer p {
+    font-family: "Press Start 2P";
     font-size: 1rem;
 }
 .achievements-container {
@@ -171,6 +181,7 @@ footer p {
 }
 
 .achievement p {
+    font-family: "Press Start 2P";
   margin-top: 8px; 
   font-size: 14px; 
   color: white; 
