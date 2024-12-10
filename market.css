@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('https://img.freepik.com/free-photo/fantastic-detailed-dragon_23-2151445871.jpg?t=st=1733761605~exp=1733765205~hmac=04ff6b0d55016637294f23a1be4b25a7f57de9a8a6f61b5d50e1ce3ab8054fbd&w=2000') no-repeat center center fixed;
+    background: url('dragonbackground.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
 }
