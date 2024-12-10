@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     color: white;
-    background: url('./dragonabourus.jpg') no-repeat center center fixed; /* Replace with your preferred medieval background */
+    background: url('https://media-hosting.imagekit.io//88d9b24f5a8e4861/dragonabourus.jpg?Expires=1734023328&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=SlaxUTq0KZc2qkNeMnrKQrXCv2ROt135wh4neK4C5B1YO82VrMQSzMFsHpTH0~-skvS-~eFL8YiMYDPTEl7lhDbVkLiVzxYhsmYq4Wmg-sDsI8tmGAeERBlwqw1hDtdS5b16HNzqefWKvEjs6efunlN2mn-Eo8EucPuJ4XlAZ0GLkbUm3Ptdc4FDFxV656-lrHmw3El6mrEE3~i-bhgx0eMxrpz8qS1JcCG~XVYF7JaLA2iuVjFwhIt5smQ5RPd4Bia7jrENnOYWRaqBb4DPNKbyFUmwhbg3f-N6qxx4fPa-UsFMLD97rx2HTEL7G7Bz1VHX9RtIcMA3ksIRoRqmFg__') no-repeat center center fixed; /* Replace with your preferred medieval background */
     background-size: cover;
 }
 
@@ -27,13 +27,13 @@ body {
 .header h1 {
     font-family: 'Cinzel', serif;
     font-size: 4.8rem;
-    color: #ffc107;
+    color: yellow;
 }
 
 .header  {
     font-size: 1.2rem;
     color: orange;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 
