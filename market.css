@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('dragonbackground.jpg') no-repeat center center fixed;
+    background: url('./dragonbackground.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
 }
